@@ -1,0 +1,24 @@
+Bước 1:	- Bật LDPlayer -> vào Cài đặt(Setting) -> Nâng Cao(Advanced) -> Chỉnh cấu hình(Customize) 920x480
+	- Xuống phần Khác(Other settings) -> chỉnh phần Cho phép root: Bật (Root permission: Enable)
+	- Trong phần Khác -> chỉnh phần Gỡ lỗi ADB: Bật kết nối cục bộ (ADB debugging: Open local connection)
+	- Save và khởi động lại
+
+Bước 2: - Chạy cmd trong folder "Tool-Auto-Train-StarShark"
+	- Chạy lệnh "adb devices"
+	- Khi đó console sẽ hiện ra port của các devices (vd: 127.0.0.1:5555 hoặc emulator-5555).
+	  Nếu chưa hiện thì quay lại Bước 1
+	- Copy port của devices mình muốn chạy
+
+Bước 3: - Chạy tool "Auto Train StarShark.ex"
+	- Nhập phần port mình vừa copy vào
+	- Turn là số lượt mình muốn đánh ở Aventures
+	- Position là vị trí của nút Fight trong trận đánh (có thể đo vị trí bằng Paint)
+
+		4 Tab: 		788 360  1750 360
+ 				_________________
+			       |	|	 |
+			       |________|________|
+			       |	|	 |
+			       |________|________|
+				788 876   1750 876
+	- Train thôi!!
